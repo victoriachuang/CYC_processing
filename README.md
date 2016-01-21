@@ -37,5 +37,5 @@ You'll love not having to find your cursor.
 |--------|--------|-----|
 |Close current tab|`Command` + `W`||
 |Close window|`Command` + `Shift` + `W`||
-|Switch between tabs|`Command` + `Option` + right or left arrows||
+|Switch between tabs|`Command` + `Option` + right or left arrows|If you have [Spectacle](https://www.spectacleapp.com/) installed, the Spectacle shortcuts will override this.|
 |Jump to first tab|`Command` + `1`|Replace 1 with any digit for the `n`th tab|
