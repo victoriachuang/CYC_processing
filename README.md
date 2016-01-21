@@ -7,11 +7,11 @@ The GREP find-and-replace tab in InCopy allows you to search for patterns in the
 
 |Function|Find what|Change to|Notes|
 |--------|---------|---------|-----|
-|Turn "n" into bullet point|`^n`|``~8||
+|Turn "n" into bullet point|`^n`|`~8`||
 |Get rid of extra whitespace|`(\s){2,}`|`\s`||
 |Remove space from the beginning of a line|`^(\s)`|`# leave blank`||
 |Remove space from the end of a line|`(\s)$`|`# leave blank`||
-|Cable schedules with dates formatted like "Ipswich Board of Selectmen Meeting Live 12/7/15"; change date to Dec. 7, 2015|`(\s12\/)` then `(\/15)$`|`Dec.` then ``.2015||
+|Cable schedules with dates formatted like "Ipswich Board of Selectmen Meeting Live 12/7/15"; change date to Dec. 7, 2015|`(\s12\/)` then `(\/15)$`|`Dec.` then `.2015`||
 |Turn returns into whitespace|`\r`|`\s'|Note that this will change **every** return into a space, ie. turning your brief into one long paragraph, so you might want to make a more unique identifier. You can also append `\s` with things you want to join each line with, such as semicolons, commas, etc.
 
 # General keyboard shortcuts for OSX
@@ -29,7 +29,7 @@ You'll love not having to find your cursor.
 |Function|Shortcut|Notes|
 |--------|--------|-----|
 |Switch between applications|`Command` + `Tab`||
-|Switch between windows of the same application|`Command` + ``` (the key above tab)||
+|Switch between windows of the same application|`Command` + `~` (the key above tab)||
 |Screen shot|`Command` + `Shift` + `3`|Will save to desktop|
 
 ## Chrome keyboard shortcuts
