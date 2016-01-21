@@ -2,7 +2,7 @@
 A processing guide for the Gatehouse Media community content team with shortcuts and hotkeys
 
 # GREP find-and-replace
-===
+---
 The GREP find-and-replace tab in InCopy allows you to search for patterns in the text, rather than search-term matches alone. This is especially helpful when you’re looking for things that occur in a certain position (beginning of a line, end of line) or when you don’t know the exact search term (two or more spaces). However, because some of these characters are “reserved” for certain patterns, you should be careful when using GREP to find and replace text with special characters, such as periods, dollar signs and backslashes. Before tackling your brief in InCopy, you can make sure your regular expression works at [rubular.com](http://rubular.com/).
 
 |Function|Find what|Change to|Notes|
@@ -15,7 +15,7 @@ The GREP find-and-replace tab in InCopy allows you to search for patterns in the
 |Turn returns into whitespace|`\r`|`\s`|Note that this will change **every** return into a space, ie. turning your brief into one long paragraph, so you might want to make a more unique identifier. You can also append `\s` with things you want to join each line with, such as semicolons, commas, etc.
 
 # General keyboard shortcuts for OSX
-===
+---
 You'll love not having to find your cursor.
 
 ## Text keyboard shortcuts
