@@ -1,7 +1,7 @@
 # CYC_processing
 A processing guide for the Gatehouse Media community content team with shortcuts and hotkeys
 
-##GREP find-and-replace
+## GREP find-and-replace
 
 The GREP find-and-replace tab in InCopy allows you to search for patterns in the text, rather than search-term matches alone. This is especially helpful when you’re looking for things that occur in a certain position (beginning of a line, end of line) or when you don’t know the exact search term (two or more spaces). However, because some of these characters are “reserved” for certain patterns, you should be careful when using GREP to find and replace text with special characters, such as periods, dollar signs and backslashes. Before tackling your brief in InCopy, you can make sure your regular expression works at [rubular.com](http://rubular.com/).
 
